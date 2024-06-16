@@ -1,0 +1,70 @@
+.itemInput {
+  width:100%;
+  margin-bottom:1vh;
+  font-size:24px;
+  
+}
+
+textarea {
+  resize: none;
+  height: 20vh;
+  width:100%;
+  font-size: 16px;
+}
+
+input {
+  width:100%;
+  font-size: 16px;
+}
+
+.buttonContainer {
+  margin-top: 75vh;
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 70%;
+  height: 10vh;
+}
+
+.addButton {
+  width: 100%;
+  height: 3em;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.screenContainer {
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height:95vh;
+}
+
+.column1 {
+  width: 35%;
+  height: 70%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.column2 {
+  width: 35%;
+  height: 70%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.column3 {
+  width: 30%;
+  height: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.itemInput > label {
+  justify-self:flex-start;
+  margin-top:5vh;
+}
+
+.itemInput > input [id="small"] {
+  padding-bottom: 5vh;
+}

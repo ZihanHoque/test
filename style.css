@@ -1,0 +1,48 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+  display:flex; 
+  flex-flow:column;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.topBar {
+  width:80%;
+  height:2em;
+  background-color:grey;
+  color:whitesmoke;
+}
+
+.logInBox {
+  flex-wrap:wrap;
+  width:30%;
+  height:30%;
+  background-color:grey;
+  border: solid black 2px;
+}
+
+.accountInput {
+  width:80%;
+  margin-bottom:1vh;
+  font-size:16px;
+}
+
+.accountInput > label {
+  justify-self:flex-start;
+}
+
+.accountInput > input [type="submit"] {
+  font-size:20px;
+  width:80%;
+  font-weight:bold;
+  height:10vh;
+}
+/*  */
+
+
